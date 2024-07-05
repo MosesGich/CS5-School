@@ -16,3 +16,17 @@ a {
 a:hover {
 	background-color: #d7e3fc;
 }
+.tinput {
+	width: 400px;
+	height: 30px;
+	padding: 5px;
+	border-radius: 10px;
+	border: 1px solid #ccc;
+	transition: box-shadow 0.3s ease-in-out;
+}
+.tinput:hover {
+	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.tinput:focus {
+	outline: none;
+}
