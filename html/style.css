@@ -17,12 +17,17 @@ a:hover {
 	background-color: #d7e3fc;
 }
 .tinput {
-	width: 400px;
-	height: 30px;
-	padding: 5px;
-	border-radius: 10px;
-	border: 1px solid #ccc;
-	transition: box-shadow 0.3s ease-in-out;
+	display: flex;
+	z-index: 3;
+	position: relative;
+	min-height: 44px;
+	background: #fff;
+	border: 1px solid #dfe1e5;
+	box-shadow: none;
+	border-radius: 24px;
+	margin: 0 auto;
+	width: 638px;
+	max-width: 584px;
 }
 .tinput:hover {
 	box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -40,7 +45,7 @@ a:hover {
 }
 
 #sbar {
-	grid-column: 2;
+	grid-column: 2 / 3;
 	grid-row: 3;
 }
 
