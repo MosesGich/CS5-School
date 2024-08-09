@@ -70,3 +70,90 @@ a:hover {
 	cursor: pointer;
 	user-select: none;
 }
+.mybody {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	display: block;
+}
+
+.whole {
+	margin: 25px 35px;
+	font-size: 20px;
+	color: #d93025;
+
+}
+.breaker {
+	border-bottom: 1px solid #ebebeb;
+}
+div.content {
+	font-size: 100%;
+	max-width: 1140px;
+	min-width: 200px;
+	width: 96%;
+	margin: 40px 2% 0 45px;
+}
+div.one {
+	width 100%;
+	clear: both;
+}
+div.one div.three {
+	float: left;
+	display: inline-block;
+	min-width: 167px;
+	width: 16px;
+	font-size: 16px;
+	min-height: 42px;
+	font-weight: 500;
+	color: #333;
+	vertical-align: middle;
+}
+div.four {
+	height: 30px;
+	display: table-cell;
+	vertical-align: middle;
+}
+div.one div.five {
+	float: left;
+	display:inline-block;
+	min-width: 167px;
+	min-height: 41px;
+	vertical-align: middle;
+	width: 50px;
+}
+div.one div.six {
+	float: left;
+	width: 33%;
+	font-size: 13px;
+	font-weight: 700;
+	color: #777;
+	padding-left: 5px;
+	vertical-align: middle;
+}
+div.seven {
+	height: 30px;
+	display: table-cell;
+	vertical-align: middle;
+}
+div.eight {
+	width: 100%;
+	clear: both;
+}
+div.eight div.nine {
+	clear: both;
+}
+div.eight div.ten {
+	float: left;
+	display: inline-block;
+	min-width: 167px;
+	width: 16%;
+	height: 42px;
+	color: #222;
+	font-size: 13px;
+	line-height: 16px;
+	vertical-align: middle;
+}
+div.eleven {
+	height: 30px;
+	display: table-cell;
+	vertical-align: middle;
+}
