@@ -129,6 +129,11 @@ div.one div.six {
 	padding-left: 5px;
 	vertical-align: middle;
 }
+@media (max-width: 1056px) {
+	div.six {
+		display: none !important;
+	}
+}
 div.four {
 	height: 30px;
 	display: table-cell;
@@ -141,7 +146,7 @@ div.one {
 div.one div.two {
 	clear: both;
 }
-div.onw div.ten {
+div.one div.ten {
 	float: left;
 	display: inline-block;
 	min-width: 167px;
@@ -179,4 +184,28 @@ div.one div.twelve input[type=text] {
 	font-size: 13px;
 	height: 25px;
 	padding: 1px 8px;
+}
+input:not([type="image" i], [type="range" i], [type="checkbox" i], [type="radio" i]) {
+	overflow-clip-margin: 0px !important;
+	overflow: clip !important;
+}
+input[type="text" i] {
+	padding-block: 1px;
+	padding-inline: 2px;
+}
+.text1:focus {
+	box-shodow: inset 0 1px 2px rgba(0, 0, 0, .3);
+	border: 1px solid #4d90fe;
+	outline: none;
+}
+div.one div.seven {
+	float: left;
+	width: 32%;
+	min-width: 160px;
+	margin: 0 0 8px 1%;
+	color: #555;
+	font-size: 11px;
+	padding-left: 5px;
+	vertical-align: middle;
+	position: relative;
 }
