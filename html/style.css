@@ -121,7 +121,7 @@ div.one div.five {
 	width: 50px;
 }
 div.one div.six {
-	float: left;
+	float: right;
 	width: 33%;
 	font-size: 13px;
 	font-weight: 700;
@@ -133,6 +133,9 @@ div.one div.six {
 	div.six {
 		display: none !important;
 	}
+}
+div {
+	unicode-bidi: isolate;
 }
 div.four {
 	height: 30px;
@@ -208,4 +211,38 @@ div.one div.seven {
 	padding-left: 5px;
 	vertical-align: middle;
 	position: relative;
+}
+div.one div.two input.frtn {
+	float: right;
+	margin: 10px 0;
+}
+input.frtn {
+	padding: 0 12px;
+}
+.mybtn_action {
+	box-shadow: none;
+	background-color: #4d90fe;
+	background-image: -webkit-linear-gradient(top, #4d90fe, #4787ed);
+	border: 1px solid  #3079ed;
+	color: #fff;
+}
+.mybtn_action:hover {
+	background-color: #357ae8;
+	background-image: -webkit-linear-gradient(top, #4d90fe, #357ae8);
+	border: 1px solid #2f5bb7;
+	border-image: initial;
+}
+.mybtn {
+	border-radius: 2px;
+	cursor: default;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: center;
+	white-space: nowrap;
+	outline: 0;
+	margin-right: 16px;
+	height: 27px;
+	line-height: 27px;
+	min-width: 54px;
+	padding: 0 8px;
 }
